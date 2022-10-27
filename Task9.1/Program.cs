@@ -8,7 +8,7 @@ namespace Task9._1
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("Вас приветствует калькулятор!");
             try
