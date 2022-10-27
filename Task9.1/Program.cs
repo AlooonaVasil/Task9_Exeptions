@@ -17,7 +17,7 @@ namespace Task9._1
                 int x = Convert.ToInt32(Console.ReadLine());
                 Console.Write("Введите целое число Y=");
                 int y = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Введите код операции 1 – сложение, 2 – вычитание, 3 – произведение, 4 – частное");
+                Console.WriteLine("Введите код операции \n1 – сложение\n2 – вычитание\n3 – произведение\n4 – частное\nВаш выбор: ");                
                 int operCode = Convert.ToInt32(Console.ReadLine());
 
                 if (operCode == 1) Console.WriteLine("Результат вычислений={0}", x + y);
